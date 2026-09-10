@@ -1,0 +1,18 @@
+story 4)
+
+EN TANT QUE analyste dynamique,
+
+JE VEUX observer le comportement du malware à l’exécution,
+
+AFIN DE comprendre ses actions réelles sur le système.
+
+Au cours de cette story, nous allons faire l'analyse dynamique de notre malware. Nous executerons ce dernier et regarderont en détail ce quil se passera. Pour cela, nous utiliserons ProcessMonitor (procmon).
+Procmon est un outil Microsoft qui permet de surveiller en temps réel les actions d’un programme sur Windows : fichiers, registre, processus et activité système.
+
+Une fois installé sur la machine virtuel, nous pouvons l'executer avant d'executer notre malware. Nous pouvons alors voir d'innombrable ligne mais elle ne nous interesse pas pour le moment, ce que nous pouvons fiare,
+c'est clear toutes ces lignes. Nous pouvons filter les lignes qui nous intéresse uniquement en fonction d'un executable mais pour être sur de ne pas rater des actions du malware, nous preferons voir toutes les 
+actions effectué dans le dossier.
+
+Nous pouvons alors voir les processus de copy du malware dans le dossier WindSyst via le processus xcopy (voir photo 1)
+Nous pouvons voir aussi comment le malware réagit en ajoutant des info dans le fichier de log (voir photo 2)
+Nous ne retrouvons pas d'autre comportement du malware.
