@@ -77,5 +77,3 @@ ROOT\...\4C530000281008116284&0\FriendlyName = SanDisk Cruzer Blade USB Device
 ROOT\...\4C530000281008116284&0\ConfigFlags = 0
 ROOT\...\4C530000281008116284&0\Device Parameters\Partmgr\DiskId = {635b1203-467e-11ea-ba75-000c295e7ac0}
 ```
-
-*(le préfixe `ROOT\ControlSet001\Enum\USBSTOR\Disk&Ven_SanDisk&Prod_Cruzer_Blade&Rev_1.00\` est abrégé en `ROOT\...\` pour la lisibilité)*
